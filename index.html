@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light container">
+    <nav class="navbar navbar-expand-lg bg-light container rounded-3 fixed-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,13 +20,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -41,7 +41,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner bg-info">
+        <div class="carousel-inner bg-info rounded-3">
           <div class="carousel-item active">
             <div class="row align-items-center p-5">
               <div class="col-lg-7 d-flex flex-column">
@@ -96,7 +96,7 @@
 
     <!-- catagory  -->
     <div class="container text-center">
-      <div class="row g-2">
+      <div class="row g-5">
         <div class="col-xl-4">
           <div class="p-3 border bg-warning rounded-3">
             <div class="d-flex justify-content-evenly align-items-center">
@@ -121,24 +121,109 @@
             </div>
           </div>
         </div>
-        
-       
         </div>
       </div>
     </div>
 
+    <!-- shoes cards  -->
+    <h1 class="container mt-5" id="shoes">Shoes</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto mb-5">
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- bags card  -->
+    <h1 class="container mt-5" id="backpack">Bags</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto mb-5">
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0 shadow p-4 rounded-3">
+          <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="border-0">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- subscribe  -->
+    <section class="footer container d-flex justify-content-center bg-info rounded-3" id="subscribe">
+      <div class="d-flex flex-column p-5">
+        <h2>lets stay in touch</h2>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">get updates from ours</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>  
+      </form>
+      </div>
+    </section>
 
-
-
-
-
-
-
-
-
-
+    <!-- footer  -->
+    <footer>
+      <p class="container text-secondary mt-5 text-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
